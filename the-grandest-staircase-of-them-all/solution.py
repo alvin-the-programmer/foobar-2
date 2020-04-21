@@ -13,7 +13,6 @@ def solution(n):
         if num_bricks == 0 and len(stairs) >= 2:
             return 1
 
-
         max_height = num_bricks + 1 if previous_height is None else previous_height
 
         total_staircases = 0
